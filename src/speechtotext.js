@@ -90,6 +90,7 @@ const SpeechToText = () => {
   useEffect(() => {
     return () => {
       SpeechRecognition.stopListening();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       synth.current.cancel();
     };
   }, []);
