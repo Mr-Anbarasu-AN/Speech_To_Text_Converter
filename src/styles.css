@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    background: linear-gradient(120deg, rgb(74, 172, 238), rgb(29, 237, 181));
+    height: 100vh;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .transcript-container {
+    margin-top: 20px;
+    width: 700px;
+    height: 250px;
+    background-color: #d3d3d3;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    word-wrap: break-word;
+  }
+  
+  .transcript-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .transcript {
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 18px;
+    white-space: pre-wrap;
+    resize: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #884da1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    margin-top: 20px;
+    background-color: #874caf;
+  }
+  
+  button.secondary {
+    margin-top: 20px;
+    background-color: #874caf;
+  }
+  
+  .button-group {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .button-group button {
+    margin-right: 10px;
+  }
+  
+  button.active {
+    background-color: rgb(227, 127, 70);
+  }
+  
